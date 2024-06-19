@@ -18,9 +18,9 @@
         </nav>
     </header>
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="carrinho" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="carrinho" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Carrinho Compras</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -28,6 +28,64 @@
           <div>
 
             <!-- cartão horizontal- produto hambuger -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="imagens/burger01.png" class="img-fluid rounded-start" alt="Clássico Angus Burger">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body text-start">
+                    <h5 class="card-title text-dark fs-6">Clássico Angus Burger</h5>
+                    <h6 class="card-text text-dark fs-6">Total: R$ 22,50</h6>
+                    <div class="d-flex">
+                      <button class="btn btn-warning btn-sm">+</button>
+                      <input  type="number" value="1" class="w-75 mx-3 text-dark text-center">
+                      <button class="btn btn-warning btn-sm">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- cartão horizontal- produto acompanhamento -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/acomp01.png" class="img-fluid rounded-start" alt="Batata">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body text-start">
+                    <h5 class="card-title text-dark fs-6">Batata</h5>
+                    <h6 class="card-text text-dark fs-6">Total: R$ 15,50</h6>
+                    <div class="d-flex">
+                      <button class="btn btn-warning btn-sm">+</button>
+                      <input  type="number" value="1" class="w-75 mx-3 text-dark text-center text-dark">
+                      <button class="btn btn-warning btn-sm">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- cartão horizontal- produto bebida -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/bebida01.png" class="img-fluid rounded-start" alt="Clássico Angus Burger">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body text-start">
+                    <h5 class="card-title text-dark fs-6">Coca-cola</h5>
+                    <h6 class="card-text text-dark fs-6">Total: R$ 5,50</h6>
+                    <div class="d-flex">
+                      <button class="btn btn-warning btn-sm">+</button>
+                      <input  type="number" value="1" class="w-75 mx-3 text-dark text-center text-dark">
+                      <button class="btn btn-warning btn-sm">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="card mb-3" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -39,7 +97,7 @@
                     <h6 class="card-text text-dark fs-6">Total: R$ 22,50</h6>
                     <div class="d-flex">
                       <button class="btn btn-warning btn-sm">+</button>
-                      <input  type="number" value="1" class="w-75 mx-3">
+                      <input  type="number" value="1" class="w-75 mx-3 text-dark text-center">
                       <button class="btn btn-warning btn-sm">-</button>
                     </div>
                   </div>
@@ -48,14 +106,84 @@
             </div>
 
             <!-- cartão horizontal- produto acompanhamento -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/acomp01.png" class="img-fluid rounded-start" alt="Batata">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body text-start">
+                    <h5 class="card-title text-dark fs-6">Batata</h5>
+                    <h6 class="card-text text-dark fs-6">Total: R$ 15,50</h6>
+                    <div class="d-flex">
+                      <button class="btn btn-warning btn-sm">+</button>
+                      <input  type="number" value="1" class="w-75 mx-3 text-dark text-center">
+                      <button class="btn btn-warning btn-sm">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- cartão horizontal- produto bebida -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens/bebida01.png" class="img-fluid rounded-start" alt="Clássico Angus Burger">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body text-start">
+                    <h5 class="card-title text-dark fs-6">Coca-cola</h5>
+                    <h6 class="card-text text-dark fs-6">Total: R$ 5,50</h6>
+                    <div class="d-flex">
+                      <button class="btn btn-warning btn-sm">+</button>
+                      <input  type="number" value="1" class="w-75 mx-3 text-dark text-center">
+                      <button class="btn btn-warning btn-sm">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <!-- total carrinho-->
-            <!-- botão pagar -->
+           
+            <div>
+               <!-- total carrinho-->
+               <h3>Total a Pagar: R$ 150,50 </h3>
+               <!-- botão pagar -->
+               <button class="btn btn-warning text-dark">Pagar</button>
+              
+
+            </div>
+            
 
           </div>
         </div>
     </div>
+
+    <section id="publicidade" class="container w-75">
+
+      <div id="carouselPublicidade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/publi1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/publi2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/publi3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
 
     <main>
 
@@ -72,8 +200,27 @@
                     <h3>Clássico Angus Burger -  <strong>R$22,50</strong></h3>
                     <p>Delicie-se com o nosso Hambúrguer Clássico, feito com um suculento hambúrguer de carne angus, queijo derretido, alface crocante, tomate fresco e um toque especial do nosso molho secreto. Perfeito para saciar sua fome!</p>
                     <button>Pedir</button>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
                 </div>
             </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div> 
 
         </section>
 
