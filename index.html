@@ -204,15 +204,38 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">Detalhes Produto</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    ...
+                    <div>
+                      <div id="ingredientesProduto1" class="border row my-3">
+                          <h6>Ingredientes</h6>
+                          <div class="row">                            
+                            <img src="imagens/pao.png" alt="" class="img-fluid col">                            
+                            <h6 class="col-8">Pão bola</h6>
+                            <button class="col">Remover</button>                            
+                          </div>    
+                      </div>
+
+                      <div class="border row my-3">
+                        <h6>Adicionais</h6>
+                        <div class="row">
+                          <h6 class="col-4">Adicional 1</h6>
+                          <h6 class="col-2"> R$ 5,00</h6>
+                          <button class="btn btn-warning btn-sm col">+</button>
+                          <input  type="number" value="0" class="col mx-3 text-dark text-center">
+                          <button class="col btn btn-warning btn-sm">-</button>
+                        </div>
+
+                        <!-- nome> botao + > input> botão - -->
+
+                      </div>
+                    </div>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
